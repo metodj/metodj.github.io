@@ -3,6 +3,7 @@
 
 @article{jazbec2021impact,
   abbr={journal},
+  abstract={We quantify the propagation and absorption of large-scale publicly available news articles from the World Wide Web to financial markets. To extract publicly available information, we use the news archives from the Common Crawl, a non-profit organization that crawls a large part of the web. We develop a processing pipeline to identify news articles associated with the constituent companies in the S&P 500 index, an equity market index that measures the stock performance of US companies. Using machine learning techniques, we extract sentiment scores from the Common Crawl News data and employ tools from information theory to quantify the information transfer from public news articles to the US stock market. Furthermore, we analyse and quantify the economic significance of the news-based information with a simple sentiment-based portfolio trading strategy. Our findings provide support for that information in publicly available news on the World Wide Web has a statistically and economically significant impact on events in financial markets.},
   title={On the impact of publicly available news and information transfer to financial markets},
   author={Jazbec, Metod and P{\`a}sztor, Barna and Faltings, Felix and Antulov-Fantulin, Nino and Kolm, Petter N},
   journal={Royal Society Open Science},
@@ -17,6 +18,7 @@
 
 @article{jazbec2021scalable,
   abbr={AISTATS},
+  abstract={Conventional variational autoencoders fail in modeling correlations between data points due to their use of factorized priors. Amortized Gaussian process inference through GPVAEs has led to significant improvements in this regard, but is still inhibited by the intrinsic complexity of exact GP inference. We improve the scalability of these methods through principled sparse inference approaches. We propose a new scalable GPVAE model that outperforms existing approaches in terms of runtime and memory footprint, is easy to implement, and allows for joint end-to-end optimization of all components.},
   title={Scalable gaussian process variational autoencoders},
   author={Jazbec, Metod and Ashman, Matt and Fortuin, Vincent and Pearce, Michael and Mandt, Stephan and R{\"a}tsch, Gunnar},
   journal={International Conference on Artificial Intelligence and Statistics (AISTATS)},
@@ -30,6 +32,7 @@
 
 @article{jazbec2020factorized,
   abbr={AABI},
+  abstract={Variational autoencoders often assume isotropic Gaussian priors and mean-field posteriors, hence do not exploit structure in scenarios where we may expect similarity or consistency across latent variables. Gaussian process variational autoencoders alleviate this problem through the use of a latent Gaussian process, but lead to a cubic inference time complexity. We propose a more scalable extension of these models by leveraging the independence of the auxiliary features, which is present in many datasets. Our model factorizes the latent kernel across these features in different dimensions, leading to a significant speed-up (in theory and practice), while empirically performing comparably to existing non-scalable approaches. Moreover, our approach allows for additional modeling of global latent information and for more general extrapolation to unseen input combinations.},
   title={Factorized Gaussian process variational autoencoders},
   author={Jazbec, Metod and Pearce, Michael and Fortuin, Vincent},
   journal={Symposium on Advances in Approximate Bayesian Inference (AABI),},
