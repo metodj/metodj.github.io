@@ -69,7 +69,7 @@ github_username: metodj
 gitlab_username: # your GitLab user name
 twitter_username: MetodJazbec # your Twitter handle
 linkedin_username: metod-jazbec-300412102 # your LinkedIn user name
-scholar_userid: xSgjaZYAAAAJ # your Google Scholar ID
+scholar_userid: lDEYafIAAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -262,21 +262,21 @@ more_authors_animation_delay: 10  # more authors are revealed on click using ani
 # Responsive WebP Images
 # -----------------------------------------------------------------------------
 
-# imagemagick:
-  # enabled: true # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
-  # widths:
-    # - 480
-    # - 800
-    # - 1400
-  # input_directories:
-    # - assets/img/
-  # input_formats:
-    # - ".jpg"
-    # - ".jpeg"
-    # - ".png"
-    # - ".tiff"
-  # output_formats:
-    # webp: "-resize 800x"
+imagemagick:
+  enabled: true # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
+  widths:
+    - 480
+    - 800
+    - 1400
+  input_directories:
+    - assets/img/
+  input_formats:
+    - ".jpg"
+    - ".jpeg"
+    - ".png"
+    - ".tiff"
+  output_formats:
+    webp: "-resize 800x"
 
 # -----------------------------------------------------------------------------
 # Jekyll Diagrams
